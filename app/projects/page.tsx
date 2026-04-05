@@ -12,55 +12,55 @@ const projects = [
   {
     title: "Custom Addition — Main Floor Expansion",
     category: "Custom Addition",
-    img: "https://lh3.googleusercontent.com/sitesv/APaQ0SR-VETEg7UcANdL3cJLGO0LELcmoFvqpka21nNSzVXr-jkCARc92b8WPpPMYpZrmjeNtEnFA7WFOdLRwgSvvqijzIewxYZYOGxFbbPWuetj7WgVMRf8Sz79fSgBa1tBTHkuely8qiSeOkGeETjXo0UTJ0G63LpXRCqGAaie00DJQM4ycM2felgOMWEnFv-iXB-N39qxF39bUuLc46JsJeV4oEprLvPuUJXFxOc=w1280",
+    img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
     desc: "A seamless expansion integrating open-concept living with the existing home's architecture.",
   },
   {
     title: "New Construction — Modern Craftsman",
     category: "New Construction",
-    img: "https://lh3.googleusercontent.com/sitesv/APaQ0SSSyKR90tgdYDMFTKIzfmNEFn7uWR2MTfO2J-LTNfmyQbY_S6dfCQOM--QbRgD-vFFLrJRNE2QeI5kDmnorL9a0JPFTQcasQJ9_0xoMjDb3cQqcE-Z4VJpGcR9r4a2uT9M9sGZWTFBsYyBClFgwLT7FZzXIOCnMF8k_GwVPjElZEue7Jb33OoNAE_pN3L4-7xjXe_N6y6QjTvhd3QceHm6jj4Jr1f4DJjkNW64=w1280",
+    img: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
     desc: "A ground-up build with custom millwork, natural stone surfaces, and energy-efficient framing.",
   },
   {
     title: "Finished Basement — Family Suite",
     category: "Finished Basement",
-    img: "https://lh3.googleusercontent.com/sitesv/APaQ0SQODukXkuSHG-OE7ocbCIqCrr8GUSgn4mlUlK3cmvnk1NZ-kqIn3s9xK6SQzUQHSIbgT6T-GVg2O0S3TVUWrbmoxN1hWEJAOY1H3DRiYDDw67GLfj_BLm_kRg263AbF7mx8gqAcFvK7utatdSbt4_H8YW0KEA36aij7f3MpzAFeiNcK0MQGMPZz6PgL8dD3_r3SlhumOyAl9uRMmlXtYLdA1IsLWEm4PymxJOI=w1280",
+    img: "https://images.unsplash.com/photo-1615873968403-89e068629265?w=800&q=80",
     desc: "Full basement transformation including structural grading, moisture sealing, and architectural woodwork.",
   },
   {
     title: "Kitchen & Interior Renovation",
     category: "Renovation",
-    img: "https://lh3.googleusercontent.com/sitesv/APaQ0SQBYQzgmb1s64xyLYJXVFad2-AgSaGxxG7aSknKjxD1_dOTsBRlcJ1EetZHpav-S1wqAKcn6kCf-2cqwk4thw-cipLRHStjk0LXI-_BygM8lXCXpky6XDlZRIxK8gIEwiecY3RqiKF5LWmQqKI7uX5sYylfUnjDcm9ZvYJ5_B9nWk5tMpTm5ih88o0B8knICiaieUoyk8xRgXT8yXMp7pT-_YFNEi9KybbTi10=w1280",
+    img: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
     desc: "Complete kitchen overhaul with custom cabinetry, stone countertops, and professional-grade appliance integration.",
   },
   {
     title: "Second-Story Addition",
     category: "Custom Addition",
-    img: "https://lh3.googleusercontent.com/sitesv/APaQ0STQaNdGFZAi8-63bxK0-JY0DY7F5X_HZSmNRBwPIfQ2fyN35eVgPBPs2v4bQx8hwZLtvLSqs_hiKDvJH0AlRB4Yvq0Mln7U2-nPc23z1rTEp9GV26JsgimfxNwXOZkpty-YvkTWMKfPIOaddP00xlumgWKFH-sVY-ocRMWdB6y-GTsMu_Jli05hG1PCSmff_29qOfzrXcg157qEec8cBhCGmMWzuKMbJbtzxdU=w1280",
+    img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
     desc: "A full second-story addition adding three bedrooms and two baths while matching the original home's roofline.",
   },
   {
     title: "Outdoor Living Addition",
     category: "Custom Addition",
-    img: "https://lh3.googleusercontent.com/sitesv/APaQ0SS4wegXRLtDZhT9guqhrLInyWobS-_YurjlMtogOcjCnpmvVda7UWuVIIOSSPqGIDH63M0Z3z1CTZdLOL5hG_5rxfUiTV7_GhyR4gizJYlOdfA0brY0iGGwLo8bimAmC1rlXmyqlIDlo92DhcPQoUTCphN_xxaSndQbH-AEwEFTwXqV-WbKCAfx5ruGYXcmw3fUTfSnL2dw7GieWXJRnlae3r03N96E5W2Hcek=w1280",
+    img: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&q=80",
     desc: "Custom deck and covered outdoor living space designed to extend the home's usable footprint year-round.",
   },
   {
     title: "Full Home Remodel",
     category: "Renovation",
-    img: "https://lh3.googleusercontent.com/sitesv/APaQ0SQ_91JZd1kK975u-YFhkXApPd4BHGSMmFz0vPXOkgONNYqB5i9PTIdsCjaV2aym8jux6tJQndrbRD8rGPt4rU7rDKDUsUHhTKPJDtlwUYXOOCnrKWWlONpTyxew6tkN4u5KgKT5mOlLmx4fgLKneRPf_MhVCd878ob_UqKxpnJQ2nH4SkY28iob2F9OHtBe7gh2bjxPV6CGDLZHARbDLPH_9KrdsFzl8coQ=w1280",
+    img: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80",
     desc: "A complete top-to-bottom remodel preserving original character while modernizing all systems and finishes.",
   },
   {
     title: "Master Suite Addition",
     category: "Custom Addition",
-    img: "https://lh3.googleusercontent.com/sitesv/APaQ0SR9RC_3zAEZq1yjYbZ8qTcSzYcDANNKlBihzdJZXTAmkArZL4eb_rpoV4MMLcqip3BxeibFNRz6Wvzt3Kyu7Z4xRp4zVd88HIBeDrLpfyTQTmjnAqbEm6Y0lntJO4HoqqFzvpfye5JTVcuW9rXedHifrRYZ7s09e1CCoabEieimYo6lknttsIonXS5xwVxYzS7JXj5h1FQQ9_j1Kz2v7Nus9-zdCB94_f2U=w1280",
+    img: "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
     desc: "A luxurious master suite addition with walk-in closet, spa bath, and private sitting area.",
   },
   {
     title: "Basement Bar & Entertainment",
     category: "Finished Basement",
-    img: "https://lh3.googleusercontent.com/sitesv/APaQ0SSD9_vtYqvCzsEVaqujvp8PwHict-PJsPs3UYoVZifYA_jCF9iht3KNDJPUslcWPjjDlMqpkPNxVBqhKnzpcoMLeR60ZRnpFHRWSdrXGeh3bav_UPjkZX_vg61fZAHebOB3-6Z_-_NMZcdTb2bto5l0HhNNGi0S_pd_YN_hlfQ-7t4Puf_jlM0dev3P9Ntr6_5A3zci5Wg0wJZUf_B3GGmg3avPxW_fO21PgMY=w1280",
+    img: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80",
     desc: "Custom bar, home theater, and entertainment suite finished to the highest spec in a previously unfinished basement.",
   },
 ];
@@ -119,7 +119,7 @@ export default function ProjectsPage() {
                     alt={project.title}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    unoptimized
+
                   />
                 </div>
                 <div className="p-6">

@@ -1,14 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-// Images sourced from biggreenbuilders.com
-const HERO_IMG =
-  "https://lh3.googleusercontent.com/sitesv/APaQ0SSFN-7MLH4W1-Hesf4aSMOp2NOXjMw_iAW_e5DdS9s-yHsroLoy7IYYYFtasHzngMcEBixzxUkWc35ptvqzXKn5wK-3HUS3NS4A7953hxBxkHbcAGdJ91mpIuG7MggS6fE4vG3ygoQH8CTAaXyDEZJgJJR1zOeWaPSNEBOHFd56QjoN6-F-TXIFKSasZlkgExPPFpVFSob4h5Zh9GgKw1AnIyBl0jo4yOEW=w1280";
+const HERO_IMG = "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1280&q=80";
 
 const PROJECT_IMGS = [
-  "https://lh3.googleusercontent.com/sitesv/APaQ0SR-VETEg7UcANdL3cJLGO0LELcmoFvqpka21nNSzVXr-jkCARc92b8WPpPMYpZrmjeNtEnFA7WFOdLRwgSvvqijzIewxYZYOGxFbbPWuetj7WgVMRf8Sz79fSgBa1tBTHkuely8qiSeOkGeETjXo0UTJ0G63LpXRCqGAaie00DJQM4ycM2felgOMWEnFv-iXB-N39qxF39bUuLc46JsJeV4oEprLvPuUJXFxOc=w1280",
-  "https://lh3.googleusercontent.com/sitesv/APaQ0SSSyKR90tgdYDMFTKIzfmNEFn7uWR2MTfO2J-LTNfmyQbY_S6dfCQOM--QbRgD-vFFLrJRNE2QeI5kDmnorL9a0JPFTQcasQJ9_0xoMjDb3cQqcE-Z4VJpGcR9r4a2uT9M9sGZWTFBsYyBClFgwLT7FZzXIOCnMF8k_GwVPjElZEue7Jb33OoNAE_pN3L4-7xjXe_N6y6QjTvhd3QceHm6jj4Jr1f4DJjkNW64=w1280",
-  "https://lh3.googleusercontent.com/sitesv/APaQ0SQODukXkuSHG-OE7ocbCIqCrr8GUSgn4mlUlK3cmvnk1NZ-kqIn3s9xK6SQzUQHSIbgT6T-GVg2O0S3TVUWrbmoxN1hWEJAOY1H3DRiYDDw67GLfj_BLm_kRg263AbF7mx8gqAcFvK7utatdSbt4_H8YW0KEA36aij7f3MpzAFeiNcK0MQGMPZz6PgL8dD3_r3SlhumOyAl9uRMmlXtYLdA1IsLWEm4PymxJOI=w1280",
+  "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&q=80",
+  "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1280&q=80",
+  "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1280&q=80",
 ];
 
 const features = [
@@ -66,7 +64,7 @@ export default function HomePage() {
             fill
             className="object-cover opacity-50"
             priority
-            unoptimized
+
           />
           <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/75 to-primary/20" />
         </div>
@@ -173,7 +171,7 @@ export default function HomePage() {
                     alt={service.title}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    unoptimized
+
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent" />
                 </div>
@@ -198,11 +196,11 @@ export default function HomePage() {
             <div className="lg:w-5/12 relative">
               <div className="relative z-10 overflow-hidden rounded-lg shadow-2xl aspect-[4/5]">
                 <Image
-                  src="https://lh3.googleusercontent.com/sitesv/APaQ0SQBYQzgmb1s64xyLYJXVFad2-AgSaGxxG7aSknKjxD1_dOTsBRlcJ1EetZHpav-S1wqAKcn6kCf-2cqwk4thw-cipLRHStjk0LXI-_BygM8lXCXpky6XDlZRIxK8gIEwiecY3RqiKF5LWmQqKI7uX5sYylfUnjDcm9ZvYJ5_B9nWk5tMpTm5ih88o0B8knICiaieUoyk8xRgXT8yXMp7pT-_YFNEi9KybbTi10=w1280"
+                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
                   alt="Fahad, Founder of Big Green Builders"
                   fill
                   className="object-cover"
-                  unoptimized
+
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 w-28 h-28 bg-primary-container/20 z-0 rounded-lg" />

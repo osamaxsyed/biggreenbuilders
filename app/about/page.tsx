@@ -8,11 +8,8 @@ export const metadata: Metadata = {
     "Learn about Big Green Builders—an owner-run residential construction company with over a decade of experience in custom additions, new construction, and finished basements.",
 };
 
-const ABOUT_IMG =
-  "https://lh3.googleusercontent.com/sitesv/APaQ0SSG5mCaVC9CakRGfoyw3uk8fUARMHcVT2G5CqqAYdfTjfKYXEzMnKe13ZRvPMFJkO8L--irNBTx4JHuNw_DspnYJHTAv6EuXGYoBeDVct8Nd6ctLg2mfFlquaC8KUJ8mYVQa7nKSV140yVsWfOx_qxw0CIlrqkYeboB8el3Bk2hfOzjdezK1fpZI0xsk3imEw9ugPEf_Q82A7tUg0p8OdF4xCOE0zh5YU8umRE=w1280";
-
-const TEAM_IMG =
-  "https://lh3.googleusercontent.com/sitesv/APaQ0SQ5HHNRJYqKqnhdLkLEjNZNmI6VSZxbIxb2J_QU_Jz3h02LyW7dFNIQe7su0PRnVgLjRBn6NhggGH8WZ0WVK_QJcZS1iX3Ys2A4U8IUlJPoI0pJJ4e2vu8fHZYqJu_0LOXtnek0Gd1Eg5BbckjuXqWj2o5hi9Hz-NUd47W2iRMNP7ayqD_X-Fl5WTq1Kx5yLocfBDKM7ngUGhBv6zYsnord5pBx_uOWrzbZMLM=w1280";
+const ABOUT_IMG = "https://images.unsplash.com/photo-1541123437800-1bb1317badc2?w=1280&q=80";
+const TEAM_IMG = "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80";
 
 const values = [
   {
@@ -60,7 +57,7 @@ export default function AboutPage() {
                   alt="Big Green Builders work site"
                   fill
                   className="object-cover"
-                  unoptimized
+
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-primary/10 rounded-lg z-0" />
@@ -172,7 +169,7 @@ export default function AboutPage() {
                   alt="Big Green Builders team"
                   fill
                   className="object-cover"
-                  unoptimized
+
                 />
               </div>
             </div>
