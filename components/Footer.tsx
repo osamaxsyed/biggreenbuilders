@@ -28,6 +28,7 @@ export default function Footer() {
             { label: "Home", href: "/" },
             { label: "About", href: "/about" },
             { label: "Projects", href: "/projects" },
+            { label: "Hiring", href: "/hiring" },
             { label: "Contact", href: "/contact" },
           ].map((link) => (
             <Link
@@ -46,8 +47,8 @@ export default function Footer() {
             Get in Touch
           </h4>
           <p className="text-on-primary/60 font-sans text-sm leading-relaxed">
-            We&apos;re currently accepting inquiries for upcoming project starts.
-            Reach out to discuss your vision.
+            Based in Princeton, NJ. Currently accepting inquiries for upcoming
+            project starts.
           </p>
           <Link
             href="/contact"
